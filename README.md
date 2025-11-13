@@ -24,6 +24,8 @@ cd robotics_toolbox
 git clone https://github.com/petercorke/robotics-toolbox-matlab.git robot
 git clone https://github.com/petercorke/spatial-math.git smtb
 git clone https://github.com/petercorke/toolbox-common-matlab.git common
+
+git clone https://github.com/cogulobi/Momentum-based-residuals-for-Matlab.git src
 ```
 
 In order to maintain the folder structure of the Peter Corke's Robotics Toolbox:
