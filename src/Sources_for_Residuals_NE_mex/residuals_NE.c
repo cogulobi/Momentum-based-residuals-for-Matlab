@@ -86,7 +86,7 @@
 
 #include "mex.h"
 
-// #define LINUX_MACHINE
+#define LINUX_MACHINE
 
 #ifdef LINUX_MACHINE
 
