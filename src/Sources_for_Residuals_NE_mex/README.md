@@ -99,7 +99,7 @@ where:
 
 Returns 2 row vectors, 1 by N (N is the number of robot joints), which correspond to the terms that charaterize the MOMENTUM-BASED RESIDUALS computation,
 and 1 value which represents how much time "residuals_NE(...)" takes to compute it:
-	OUTER_TERM:  robot generalized momentum -> M(Q)D;
+	OUTER_TERM:  robot generalized momentum -> M(Q)*QD;
  	INNER_TERM:  summation of all the terms within the integral (without friction terms);
  	COMP_TIMING: how much time the residual calculus takes.
 ```

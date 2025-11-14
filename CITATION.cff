@@ -13,5 +13,4 @@ authors:
     affiliation: "Sapienza University of Rome"
 year: 2025
 license: "GPL-3.0"
-doi: "10.xxxx/zenodo.xxxxxx"
-version: "1.0.0"
+version: "v1.0.beta1"

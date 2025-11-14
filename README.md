@@ -1,4 +1,5 @@
 ## Robotics Toolbox add-on for Momentum-based residual calculus on MATLAB
+
 The library is an addon for the Robotics Toolbox of Prof. P. Corke which makes it possible to compute the terms required for the computation of the residuals for an N link planar robot and for a a KUKA LWR4+ collaborative robot.
 
 This repository contains the code and data supporting the paper:
@@ -24,8 +25,12 @@ cd robotics_toolbox
 git clone https://github.com/petercorke/robotics-toolbox-matlab.git robot
 git clone https://github.com/petercorke/spatial-math.git smtb
 git clone https://github.com/petercorke/toolbox-common-matlab.git common
+```
 
-git clone https://github.com/cogulobi/Momentum-based-residuals-for-Matlab.git src
+To install the toolbox add-on:
+
+```shell
+git clone https://github.com/cogulobi/Momentum-based-residuals-for-Matlab.git 
 ```
 
 In order to maintain the folder structure of the Peter Corke's Robotics Toolbox:
@@ -54,5 +59,5 @@ This toolbox is released under GNU GPL V3.0.
 
 ## Citation
 
-If you use this code, please cite the associated paper and repository DOI: "10.xxxx/zenodo.xxxxxx"
+If you use this code, please cite the associated paper  **"Efficient computation of momentum-based residual for robot collision detection and isolation"**, G. Tonti et al., 2025.
 

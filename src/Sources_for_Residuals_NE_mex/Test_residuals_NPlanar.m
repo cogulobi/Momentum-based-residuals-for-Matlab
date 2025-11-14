@@ -16,7 +16,7 @@ is_planar_robot = 1;
 % Number of configurations (MUSTE BE EQUAL TO 1)
 n = 1;
 % Number of iterations
-iterations = 1000;
+iterations = 10000;
 
 %% Residual calculus
 
